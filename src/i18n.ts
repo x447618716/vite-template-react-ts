@@ -11,7 +11,7 @@ i18n
     backend: {
       loadPath: "/locales/{{lng}}/{{ns}}.json",
     },
-    fallbackLng: "zh-CN",
+    fallbackLng: "zh",
     saveMissing: false,
     interpolation: {
       escapeValue: false,

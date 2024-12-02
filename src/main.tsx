@@ -13,7 +13,7 @@ import "./i18n"
 import "./index.css"
 import "antd-mobile/bundle/css-vars-patch.css"
 
-dayjs.locale("zh-CN-cn")
+dayjs.locale("zh-cn")
 
 const container = document.getElementById("root")
 

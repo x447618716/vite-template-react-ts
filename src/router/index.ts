@@ -1,10 +1,10 @@
-import { createBrowserRouter } from "react-router-dom"
+import { createBrowserRouter } from "react-router"
 import { lazy } from "react"
 // import AuthGuardComponent from "@/components/AuthGuardComponent"
 const Counter = lazy(() => import("@/features/counter/Counter"))
 const Quotes = lazy(() => import("@/features/quotes/Quotes"))
 
-const router = createBrowserRouter(
+const router: ReturnType<typeof createBrowserRouter> = createBrowserRouter(
   [
     {
       path: "/",
