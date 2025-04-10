@@ -3,7 +3,6 @@ import type { LazyExoticComponent } from "react"
 import { Suspense, useEffect } from "react"
 import type { JSX } from "react/jsx-runtime"
 import KeepAlive from "react-activation"
-import { DotLoading } from "antd-mobile"
 
 export default function withAuthentication(
   WrappedComponent: LazyExoticComponent<() => JSX.Element>,
@@ -17,7 +16,7 @@ export default function withAuthentication(
 
     return (
       <KeepAlive>
-        <Suspense fallback={<DotLoading />}>
+        <Suspense fallback={<div>加载中···</div>}>
           <WrappedComponent />
         </Suspense>
       </KeepAlive>

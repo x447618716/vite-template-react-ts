@@ -1,6 +1,6 @@
 import { createAppSlice } from "../createAppSlice"
 import type { PayloadAction } from "@reduxjs/toolkit"
-import { RootState } from "@/stores"
+//import { RootState } from "@/stores"
 
 export interface GlobalSliceState {
   accessToken?: string

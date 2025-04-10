@@ -4,7 +4,6 @@ import { useGetQuotesQuery } from "./quotesApiSlice"
 
 const options = [5, 10, 20, 30]
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
   const [numberOfQuotes, setNumberOfQuotes] = useState(10)
   // Using a query hook automatically fetches data and returns query values

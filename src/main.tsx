@@ -7,11 +7,11 @@ import App from "./App"
 import { persistor, store } from "./stores"
 import { PersistGate } from "redux-persist/integration/react"
 import { ConfigProvider, DotLoading } from "antd-mobile"
+console.log("sad hello")
 import dayjs from "dayjs"
 import "dayjs/locale/zh-cn"
 import "./i18n"
 import "./index.css"
-import "antd-mobile/bundle/css-vars-patch.css"
 
 dayjs.locale("zh-cn")
 

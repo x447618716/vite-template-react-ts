@@ -12,7 +12,6 @@ import {
   selectStatus,
 } from "./counterSlice"
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
   const dispatch = useAppDispatch()
   const count = useAppSelector(selectCount)

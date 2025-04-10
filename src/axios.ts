@@ -1,6 +1,5 @@
 import type { InternalAxiosRequestConfig } from "axios"
 import axios from "axios"
-import i18n from "./i18n"
 
 /**
  * 请求内置操作
